@@ -1,0 +1,54 @@
+.mainbody{   
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("nownow.png");
+}
+
+h1{
+    color: azure;
+    font-size:xx-large;
+    align-content: flex-end;
+}
+
+#searchID{
+    text-align: center;
+    color:lavender;
+    font-size: xx-large;
+}
+
+#inputText{
+    border-radius: 0.5em;
+    width: 30em;
+    height: 1.59cm;
+    font: 100;
+    border-color: rgb(179, 20, 20);
+}
+
+#buttonSearch{
+    box-sizing: border-box;
+    border-radius: 0.5em;
+    width: 10em;
+    height: 1.3cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: crimson;
+    background-color: rgb(22, 190, 7);
+}
+
+#buttonCancel{
+    box-sizing: border-box;
+    border-radius: 0.5em;
+    width: 10em;
+    height: 1.3cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: chartreuse;
+    background-color: rgba(255, 36, 36, 0.582);   
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+}
+
+
