@@ -1,0 +1,146 @@
+html{
+    background-color: lightgray;
+    scroll-behavior: smooth;
+}
+
+#header{
+    padding: 0px 20px;
+    margin: 20px;
+    place-items: center;
+    position:sticky;
+}
+
+#nav-bar{
+    margin: 10px 0px 0px;
+    padding: 10px 50px;
+}
+
+#nav-bar li{
+    float: right;
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+}
+
+.main{
+    margin: auto;
+    place-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#submit{
+    background-color: gold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    letter-spacing: 0.1rem;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+form{
+    padding: 10px;
+    margin: 10px 5px;
+    text-align: center;
+}
+form h2{
+    text-align: center;
+    margin: auto;
+}
+
+#email{
+    margin: 7px;
+    padding: 8px;
+    font: 10px;
+    height: 12px;
+    max-width: 200px;
+    border-radius: 3px;
+}
+
+form #submit{
+    font-size: 12px;
+    margin: 10px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#premium-materials, #fast-shipping,
+#quality-assurance,
+#tenor_trombone, #bass_trombone, 
+#valve_trombone{
+    margin: 20px;
+}
+
+video{
+    width: 600px;
+    height: 400px;
+    margin: 30px;
+}
+
+.pricing{
+    margin:0px;
+    padding: 0px;
+    display: flex;
+}
+
+.features div{
+    display: inline;
+    text-align: left;
+    justify-content: center;
+}
+
+.pricing h3{
+    background-color: gray;
+    padding: 7px;
+    text-align: left;
+}
+
+.pricing div{
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    margin: 3px;
+    margin-bottom: 0px;
+    text-align: center;
+    border: 1px solid #000;
+    flex-direction: columns;
+}
+
+.pricing div #submit{
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#submit:hover{
+    cursor: pointer;
+    transition: 0.3200s;
+    background-color: orange;
+}
+
+.footer{
+    background-color:rgb(212, 212, 212);
+    padding: 10px;
+    margin: 5px 10px;
+    height: 75px;
+    text-align: right;
+    display: block;
+}
+.footer a{
+    display: inline;
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    max-height:100px ;
+}
+
+.heading, p, h2{
+    text-align: center;
+}

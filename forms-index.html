@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/forms.css">
+    <title>Form-template</title>
+</head>
+<body style="background-color: grey;" class="form-body">
+    <div class="form-box" style="background-color:black;">
+        <header id="header-id" style="text-align: center;">
+            <h2>
+                Fill in and submit.
+            </h2>
+        </header>
+
+        <form class="form-outline" action="" method="post">
+            <fieldset>
+                <legend>Basic Info</legend>
+                <label for="firstname">Fistname</label>
+                <input id="firstname" class="form-input" type="text" placeholder="firstname"> <br>
+    
+                <label for="surname">Surname</label>
+                <input id="surname" class="form-input" type="text" placeholder="lastname"> <br>
+    
+                <label for="email-id">Email</label>
+                <input id="email-id" class="form-input" type="text" placeholder="Email" required><br>
+            </fieldset>
+          
+            <fieldset>
+                <legend>More info</legend>
+                <label for="location-id">Location</label>
+                <input id="location-id"class="form-input" type="text" placeholder="Location"><br>
+
+                <label for="telephone-id">Contact</label>
+                <input id="telephone-id" class="form-input" type="text" placeholder="Telephone"><br>
+            </fieldset>
+           
+           
+            <fieldset>
+                <legend>Experience</legend>
+
+                <label for="select-program">Programming Language</label>
+                <select id="select-program" class="form-input" type="text" value="language...">
+                    <option value="python"> Python</option>
+                    <option value="java">Java</option>
+                    <option value="javascript">Javascript</option>
+                    <option value="other">Other</option>    
+                </select><br>
+    
+                <p id="level-id">Level</p><br>
+                <label for="beginner-id">Beginner</label>
+                <input id="beginner-id" class="experience-level" type="radio" name="experience" value="advanced">
+    
+                <label for="intermediate-id">Intermediate</label>
+                <input id="intermediate-id" class="experience-level" type="radio" name="experience" value="advanced">
+                
+                <label for="advanced-id">Advanced</label>
+                <input id="advanced-id" class="experience-level" type="radio" name="experience" value="advanced">
+    
+                <label for="account-id">Github</label>
+                <input id="account-id" class="form-input" type="text" placeholder="www.github.com/user-name"><br>
+    
+            </fieldset>
+
+            <button id="submit-btn" class="btn-submit" type="submit" >Submit</button>
+
+            <p id="remark-id">Your data is secured.</p>
+             
+        </form>
+
+    </div>
+
+</body>
+
+<footer>
+    dev_Joe devloped it. <br>
+    Copyright &copy 2022.
+</footer>
+</html>

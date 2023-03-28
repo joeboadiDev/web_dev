@@ -1,0 +1,74 @@
+#JavaScript_and_Java,#Variables,#global_variables,#while_statement,#function_declarations, #reference{
+    text-align:left;
+    margin: 10px auto;
+    font-family:cursive;
+  }
+  
+  *{
+    scroll-behavior:smooth;
+    text-align:center;
+  }
+  
+  #navbar ul{
+    height:207px;
+    border-width:1px;
+    border-style:solid;
+    border-color:initial;
+    border-image:initial;
+  }
+  
+  li{
+    list-style-type:none;
+      margin:10px;
+  }
+  
+  li a {
+    width: 40px;
+    height:20px;
+    padding:20px;
+    text-decoration:none;
+    color:#000;
+  }
+  
+  .nav-link:hover{
+    text-decoration:underline;
+    transition:320s;
+  }
+  
+  header{
+    font-size:30px;
+    padding:10px;
+  }
+  
+  #main-section{
+   float:right;
+   font-size:20px;
+   padding:480px;
+  }
+  
+  #main-doc{
+    margin-left:-10px;
+     padding:20px;
+  }
+  
+  code{
+    font-family:system-ui;
+    background-color:Lightgray;
+    padding:20px;
+    border-radius:5px;
+  }
+  
+  code:hover{
+    background-color:Lightblue;
+  }
+  
+  @media screen and (min-width: 480px) {
+    
+    body {
+      background-color: lightgrey;
+    }
+  
+    code{
+      background-color:#fff;
+    }
+  }

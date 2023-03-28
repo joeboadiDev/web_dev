@@ -1,0 +1,49 @@
+.spinner {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: transparent;
+    border: solid white 3px;
+    animation: round 1s linear infinite;
+}
+
+.spinner::after {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width:65px;
+    height: 65px;
+    border-radius: 50%;
+    border-top: rgb(81, 219,217) 5px solid;
+}
+
+/*CSS animation*/
+@keyframes round {
+    from { 
+        transform: rotate(0deg) ;
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+div {
+    margin: auto 160px;
+    align-content: center;
+    place-items: center;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin-top: 400px;
+}
+
+* {
+    background-color: rgb(35, 33, 75);
+    color: rgb(81, 219,217);
+    text-align: center;
+}

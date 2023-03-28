@@ -1,27 +1,41 @@
-
-.entirePage{
-    background-image: linear-gradient
-                        (to right, 
-                        rgb(rgb(252, 56, 56),
-                        rgb(107, 247, 107),
-                        rgb(75, 75, 255)));
+body{
+    background-color: rgb(216, 216, 231);
+    padding: 50px;
 }
 
-body{
-    background-color:rgb(26, 31, 29);   
+.entirePage{
+    background: linear-gradient(to right,rgb(58, 216, 37),rgb(217, 236, 164),rgb(224, 105, 7));
+    box-sizing: border-box;
+    border-radius: 0.5em;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    border: 3.5px solid rgb(148, 8, 8);
+    margin: auto;
+    padding: 10px;
+    width: 40em;
+    height: 30em;
+    padding: 50px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    }
+}
 
-h1{
+.header #Label {
     color: azure;
     font-size:xx-large;
-    align-content: flex-end;
+    font-family: monospace;
+    align-content: center;
+    text-align: center;
+}
+
+#Label:hover{
+    color: black;
+    font-weight: 800;
+    font-style: oblique;
+    font-stretch:semi-expanded;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 #searchID{
     text-align: center;
-    color:lavender;
+    color:rgb(0, 0, 0);
     font-size: xx-large;
 }
 
@@ -43,6 +57,13 @@ h1{
     background-color: rgb(22, 190, 7);
 }
 
+#buttonSearch:hover{
+    color:rgb(6, 10, 48);
+    background-color: rgb(34, 255, 63);
+    font-style: italic;
+    font-size: large;
+}
+
 #buttonCancel{
     box-sizing: border-box;
     border-radius: 0.5em;
@@ -50,14 +71,25 @@ h1{
     height: 1.3cm;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-color: chartreuse;
-    background-color: rgba(255, 36, 36, 0.582);   
+    background-color: rgb(204, 7, 7);   
 }
 
-footer{
+#buttonCancel:hover{
+    color: black;
+    background-color: rgb(252, 54, 54);
+    font-style: italic;
+    font-size: large;
+}
+
+.footer{
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-small;
 }
+
+ #link:hover{
+    color: aliceblue;
+ }
 
 

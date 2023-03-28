@@ -1,0 +1,65 @@
+.form-body{
+    color: white;
+    padding-top: 30px;
+    align-content: center;
+    height: 100vh;
+}
+
+.form-box{
+    border:3px solid white ;
+    border-radius: .5em;
+    align-content: center;
+    font-style: italic;
+    box-shadow: 1em 1em 1em;
+    padding: 0.7cm;
+    margin: auto;
+    width: 300px;
+    height: 95%; 
+}
+
+.form-input{
+    border-radius: .5em;
+    padding: 7px;
+    align-content: right;
+    width: 5cm;
+    float: right;
+}
+
+.btn-submit{
+    padding:.3cm;
+    width: 5cm;
+    display: flex;
+    margin: 10px auto;
+    justify-content:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: .3cm;
+}
+
+.btn-submit:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+label{
+    justify-content: space-evenly;
+    margin: auto;
+    align-content: center;
+    float: left;
+}
+
+footer{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 12px;
+}
+
+remark-id{
+    text-align:center;
+    margin-bottom: 0px;
+}
+
+fieldset{
+    margin: 10px;
+}
